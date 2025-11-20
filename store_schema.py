@@ -4,13 +4,10 @@ STORE_SCHEMA = {
         "approved": {
             "type": "integer"
         },
-        "placed": {
-            "type": "integer"
-        },
         "delivered": {
             "type": "integer"
         }
     },
-    "required": ["approved", "placed", "delivered"],
+    "required": ["approved", "delivered"],
     "additionalProperties": False
 }
