@@ -1,4 +1,4 @@
-STORE_SCHEMA = {
+INVENTORY_SCHEMA = {
     "type": "object",
     "properties": {
         "approved": {
@@ -11,3 +11,4 @@ STORE_SCHEMA = {
     "required": ["approved", "delivered"],
     "additionalProperties": False
 }
+
