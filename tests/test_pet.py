@@ -4,6 +4,7 @@ import pytest
 
 BASE_URL = "http://5.181.109.28:9090/api/v3"
 
+
 @allure.feature("Pet")
 class TestPet:
     @allure.title("Попытка удалить несуществующего питомца")
